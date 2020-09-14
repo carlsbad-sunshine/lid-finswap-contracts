@@ -5,7 +5,7 @@ let config = {};
 config.timer = {
   startTime: 1600141440,
   hardCapTimer: 172800,
-  softCap: ether("1000"),
+  softCap: ether("500"),
 };
 
 config.redeemer = {
@@ -25,7 +25,7 @@ config.presale = {
   uniswapEthBP: 6000,
   lidEthBP: 500,
   referralBP: 250,
-  hardcap: ether("3000"),
+  hardcap: ether("3500"),
   token: "0x3B78dc5736a49BD297Dd2E4d62daA83D35A22749",
   uniswapRouter: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
   lidFund: "0xb63c4F8eCBd1ab926Ed9Cb90c936dffC0eb02cE2",
@@ -37,8 +37,8 @@ config.presale = {
     marketing: 500,
     team: 2000,
     lidFee: 100,
-    project: 2900,
-    liquidity: 1500,
+    project: 3050,
+    liquidity: 1350,
     presale: 3000
   }
 };

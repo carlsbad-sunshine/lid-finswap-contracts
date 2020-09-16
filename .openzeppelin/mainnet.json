@@ -273,11 +273,11 @@
       }
     },
     "LidSimplifiedPresaleRedeemer": {
-      "address": "0x125D40ff5fD56b80B140E5E5A6f2E461E48bD6Ff",
-      "constructorCode": "608060405261140a806100136000396000f3fe",
-      "bodyBytecodeHash": "457162c5d940018e22c51d7c7a1476fd89697c5c269f6c71af1ed8f4d346152d",
-      "localBytecodeHash": "e7f483e19245674ad3f5c7c87029f3ac2be270ce79e3c17c313e638a04312f1f",
-      "deployedBytecodeHash": "e7f483e19245674ad3f5c7c87029f3ac2be270ce79e3c17c313e638a04312f1f",
+      "address": "0x616c6A2fE05Bd1d68bDA8A5E1b7d521B0d0Bc485",
+      "constructorCode": "6080604052611645806100136000396000f3fe",
+      "bodyBytecodeHash": "02edb9b9aae0914fd3f4f4d17173135344ae2ab56dbd4846a3511cb696794e48",
+      "localBytecodeHash": "3e86dca624f11a944b8a704e92fedf341eac7fae22309ac9567fd64bc520ae14",
+      "deployedBytecodeHash": "3e86dca624f11a944b8a704e92fedf341eac7fae22309ac9567fd64bc520ae14",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -320,7 +320,7 @@
           "contract": "Initializable",
           "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
           "label": "initialized",
-          "astId": 8142,
+          "astId": 8245,
           "type": "t_bool",
           "src": "757:24:35"
         },
@@ -328,7 +328,7 @@
           "contract": "Initializable",
           "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
           "label": "initializing",
-          "astId": 8144,
+          "astId": 8247,
           "type": "t_bool",
           "src": "876:25:35"
         },
@@ -336,7 +336,7 @@
           "contract": "Initializable",
           "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
           "label": "______gap",
-          "astId": 8206,
+          "astId": 8309,
           "type": "t_array:50<t_uint256>",
           "src": "1982:29:35"
         },
@@ -344,7 +344,7 @@
           "contract": "Ownable",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
           "label": "_owner",
-          "astId": 7502,
+          "astId": 7605,
           "type": "t_address",
           "src": "526:22:31"
         },
@@ -352,7 +352,7 @@
           "contract": "Ownable",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
           "label": "______gap",
-          "astId": 7615,
+          "astId": 7718,
           "type": "t_array:50<t_uint256>",
           "src": "2471:29:31"
         },
@@ -360,7 +360,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "redeemBP",
-          "astId": 1013,
+          "astId": 1033,
           "type": "t_uint256",
           "src": "712:20:2"
         },
@@ -368,7 +368,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "redeemInterval",
-          "astId": 1015,
+          "astId": 1035,
           "type": "t_uint256",
           "src": "739:26:2"
         },
@@ -376,7 +376,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "bonusRangeStart",
-          "astId": 1018,
+          "astId": 1038,
           "type": "t_array:dyn<t_uint256>",
           "src": "774:29:2"
         },
@@ -384,7 +384,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "bonusRangeBP",
-          "astId": 1021,
+          "astId": 1041,
           "type": "t_array:dyn<t_uint256>",
           "src": "810:26:2"
         },
@@ -392,7 +392,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "currentBonusIndex",
-          "astId": 1023,
+          "astId": 1043,
           "type": "t_uint256",
           "src": "843:29:2"
         },
@@ -400,7 +400,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "totalShares",
-          "astId": 1025,
+          "astId": 1045,
           "type": "t_uint256",
           "src": "881:23:2"
         },
@@ -408,7 +408,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "totalDepositors",
-          "astId": 1027,
+          "astId": 1047,
           "type": "t_uint256",
           "src": "911:27:2"
         },
@@ -416,7 +416,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "accountDeposits",
-          "astId": 1031,
+          "astId": 1051,
           "type": "t_mapping<t_uint256>",
           "src": "945:47:2"
         },
@@ -424,7 +424,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "accountShares",
-          "astId": 1035,
+          "astId": 1055,
           "type": "t_mapping<t_uint256>",
           "src": "999:45:2"
         },
@@ -432,7 +432,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "accountClaimedTokens",
-          "astId": 1039,
+          "astId": 1059,
           "type": "t_mapping<t_uint256>",
           "src": "1051:52:2"
         },
@@ -440,7 +440,7 @@
           "contract": "LidSimplifiedPresaleRedeemer",
           "path": "..\\..\\..\\D\\LID\\finswap\\finswap-contracts\\contracts\\LidSimplifiedPresaleRedeemer.sol",
           "label": "presale",
-          "astId": 1041,
+          "astId": 1061,
           "type": "t_address",
           "src": "1112:23:2"
         }
@@ -450,7 +450,9 @@
         "hasSelfDestruct": false,
         "hasDelegateCall": false,
         "hasInitialValuesInDeclarations": false,
-        "uninitializedBaseContracts": []
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
       }
     },
     "LidSimplifiedPresaleTimer": {
@@ -576,11 +578,11 @@
       }
     },
     "LidSimplifiedPresale": {
-      "address": "0xD7A91523B1C2AffE3A0F3954e61cE1C7D2A98eD8",
-      "constructorCode": "60806040526138ae806100136000396000f3fe",
-      "bodyBytecodeHash": "d5ba7c624faf5291f20a0eb8e9b709d091a2456d1872a159bcd26c8eec00671a",
-      "localBytecodeHash": "63a5f724562a4a9bbe008bcbbff153b98444c16ec830c9a3ae1a09d74c16590a",
-      "deployedBytecodeHash": "63a5f724562a4a9bbe008bcbbff153b98444c16ec830c9a3ae1a09d74c16590a",
+      "address": "0xbaA23f262BCA7239ab9Cd12162e82Aa42DA3F2aE",
+      "constructorCode": "608060405261385c806100136000396000f3fe",
+      "bodyBytecodeHash": "eebbef4639e83d4a49cd22479cac3e00b9535f6f9cc11cdd6b971226a3575522",
+      "localBytecodeHash": "f3c03cdc5e8c99a30eb778f7fb3f26cfaccf6769956d2d07b7f92828d5e10b7e",
+      "deployedBytecodeHash": "f3c03cdc5e8c99a30eb778f7fb3f26cfaccf6769956d2d07b7f92828d5e10b7e",
       "types": {
         "t_bool": {
           "id": "t_bool",
@@ -611,7 +613,7 @@
           "members": [
             {
               "label": "bearer",
-              "astId": 7026,
+              "astId": 7100,
               "type": "t_mapping<t_bool>",
               "src": "150:32:27"
             }
@@ -654,7 +656,7 @@
           "contract": "Initializable",
           "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
           "label": "initialized",
-          "astId": 8166,
+          "astId": 8240,
           "type": "t_bool",
           "src": "757:24:35"
         },
@@ -662,7 +664,7 @@
           "contract": "Initializable",
           "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
           "label": "initializing",
-          "astId": 8168,
+          "astId": 8242,
           "type": "t_bool",
           "src": "876:25:35"
         },
@@ -670,7 +672,7 @@
           "contract": "Initializable",
           "path": "@openzeppelin\\upgrades\\contracts\\Initializable.sol",
           "label": "______gap",
-          "astId": 8230,
+          "astId": 8304,
           "type": "t_array:50<t_uint256>",
           "src": "1982:29:35"
         },
@@ -678,7 +680,7 @@
           "contract": "Ownable",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
           "label": "_owner",
-          "astId": 7526,
+          "astId": 7600,
           "type": "t_address",
           "src": "526:22:31"
         },
@@ -686,7 +688,7 @@
           "contract": "Ownable",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\ownership\\Ownable.sol",
           "label": "______gap",
-          "astId": 7639,
+          "astId": 7713,
           "type": "t_array:50<t_uint256>",
           "src": "2471:29:31"
         },
@@ -694,7 +696,7 @@
           "contract": "ReentrancyGuard",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\utils\\ReentrancyGuard.sol",
           "label": "_guardCounter",
-          "astId": 8128,
+          "astId": 8202,
           "type": "t_uint256",
           "src": "733:29:34"
         },
@@ -702,7 +704,7 @@
           "contract": "ReentrancyGuard",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\utils\\ReentrancyGuard.sol",
           "label": "______gap",
-          "astId": 8161,
+          "astId": 8235,
           "type": "t_array:50<t_uint256>",
           "src": "1563:29:34"
         },
@@ -710,7 +712,7 @@
           "contract": "PauserRole",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\PauserRole.sol",
           "label": "_pausers",
-          "astId": 7123,
+          "astId": 7197,
           "type": "t_struct<Roles.Role>",
           "src": "327:27:28"
         },
@@ -718,7 +720,7 @@
           "contract": "PauserRole",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\PauserRole.sol",
           "label": "______gap",
-          "astId": 7223,
+          "astId": 7297,
           "type": "t_array:50<t_uint256>",
           "src": "1193:29:28"
         },
@@ -726,7 +728,7 @@
           "contract": "Pausable",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\lifecycle\\Pausable.sol",
           "label": "_paused",
-          "astId": 7245,
+          "astId": 7319,
           "type": "t_bool",
           "src": "909:20:29"
         },
@@ -734,7 +736,7 @@
           "contract": "Pausable",
           "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\lifecycle\\Pausable.sol",
           "label": "______gap",
-          "astId": 7328,
+          "astId": 7402,
           "type": "t_array:50<t_uint256>",
           "src": "2163:29:29"
         },
@@ -950,7 +952,7 @@
             "contract": "PauserRole",
             "path": "@openzeppelin\\contracts-ethereum-package\\contracts\\access\\roles\\PauserRole.sol",
             "label": "_pausers",
-            "astId": 7123,
+            "astId": 7197,
             "type": "t_struct<Roles.Role>",
             "src": "327:27:28"
           }
@@ -992,7 +994,7 @@
       {
         "address": "0x0652Db986e8b53BDEcD8D4AC539D312faE71F0bB",
         "version": "1.0.0",
-        "implementation": "0x125D40ff5fD56b80B140E5E5A6f2E461E48bD6Ff",
+        "implementation": "0x616c6A2fE05Bd1d68bDA8A5E1b7d521B0d0Bc485",
         "admin": "0x7dAa68A33D7dD486F6989a4979bF37fD71fa5682",
         "kind": "Upgradeable"
       }
@@ -1001,7 +1003,7 @@
       {
         "address": "0x5C0F777c60BC19C57d6688BDcDe58b5E10EE5C14",
         "version": "1.0.0",
-        "implementation": "0xD7A91523B1C2AffE3A0F3954e61cE1C7D2A98eD8",
+        "implementation": "0xbaA23f262BCA7239ab9Cd12162e82Aa42DA3F2aE",
         "admin": "0x7dAa68A33D7dD486F6989a4979bF37fD71fa5682",
         "kind": "Upgradeable"
       }
